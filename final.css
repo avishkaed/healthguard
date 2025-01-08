@@ -1,0 +1,63 @@
+/* Finalize Order page css */
+
+#orderSummaryTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+#orderSummaryTable th, #orderSummaryTable td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#orderSummaryTable th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+}
+
+#orderSummaryTable tr:hover {
+  background-color: #f5f5f5;
+}
+
+#finalPrice {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.FinalOrderForm {
+  margin-top: 20px;
+}
+
+.FinalOrderForm label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.FinalOrderForm input[type="text"],
+.FinalOrderForm input[type="email"],
+.FinalOrderForm input[type="tel"],
+.FinalOrderForm input[type="month"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.FinalOrderForm input[type="submit"] {
+  background-color: #b43740;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.FinalOrderForm input[type="submit"]:hover {
+  background-color: #b64450;
+}
